@@ -15,7 +15,7 @@ int main(void)
 	char ch, e, q;
 
 	e = 'e';
-	
+
 	q = 'q';
 
 	for (ch = 'a'; ch <= 'z'; ch++)
