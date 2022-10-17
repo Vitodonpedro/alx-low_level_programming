@@ -5,18 +5,18 @@
 /**
  ** main - Entry point
  **
- ** Return: Always 0 
+ ** Return: Always 0
  **/
 
 int main(void)
 
 {
 
-	char low;
+	char fly;
 
-	for (low = 'z'; low >= 'a'; low--)
+	for (fly = 'z'; fly >= 'a'; fly--)
 
-		putchar(low);
+		putchar(fly);
 
 	putchar('\n');
 
