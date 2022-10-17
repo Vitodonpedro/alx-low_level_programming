@@ -18,7 +18,7 @@ int main(void)
 
 	y = 'y';
 
-	for (ch = 'x'; ch <= 'z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 
 	{
 
