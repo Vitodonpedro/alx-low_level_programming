@@ -8,18 +8,14 @@
 int main(void)
 {
 	char x;
-	char y;
 
-	while
-		(x = 'a'; x <= 'z'; x++)
-		{
+	for (x = 'a'; x <= 'z'; x++)
+
 		putchar(x);
-		}
-	while
-		(y = 'A'; y <= 'Z'; y++)
-		{
-	       putchar(y);
-		}
+
+	for (x = 'A'; x <= 'Z'; x++)
+		putchar(x);
+
 	putchar('\n');
 	return (0);
 }
