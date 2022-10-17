@@ -12,17 +12,17 @@ int main(void)
 
 {
 
-	char ch, x, y;
+	char ch, e, q;
 
-	x = 'x';
-
-	y = 'y';
+	e = 'e';
+	
+	q = 'q';
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 
 	{
 
-		if (ch != x && ch != y)
+		if (ch != e && ch != q)
 
 			putchar(ch);
 
