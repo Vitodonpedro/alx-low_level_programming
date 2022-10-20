@@ -9,18 +9,18 @@ int main(void)
 {
 	int n, m, l;
 
-	for (n = 18; n <= 28; n++)
+	for (n = 0; n <= 8; n++)
 	{
-		for (m = 19; m <= 28; m++)
+		for (m = 0; m <= 8; m++)
 		{
-			for (l = 20; l <= 28; l++)
+			for (l = 0; l <= 8; l++)
 			{
 				if (l > m && m > n)
 				{
 					putchar(n);
 					putchar(m);
 					putchar(l);
-					if (n == 25 && m == 26 && l == 27)
+					if (n == 5 && m == 6 && l == 7)
 					{
 						break;
 					}
