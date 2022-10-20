@@ -9,11 +9,11 @@ int main(void)
 {
 	int n, m, l;
 
-	for (n = '18'; n <= '28'; n++)
+	for (n = 18; n <= 28; n++)
 	{
-		for (m = '19'; m <= '28'; m++)
+		for (m = 19; m <= 28; m++)
 		{
-			for (l = '20'; l <= '28'; l++)
+			for (l = 20; l <= 28; l++)
 			{
 				if (l > m && m > n)
 				{
