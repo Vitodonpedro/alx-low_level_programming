@@ -20,7 +20,7 @@ int main(void)
 					putchar(n);
 					putchar(m);
 					putchar(l);
-					if (n != '25' || m != '26' || l != '27')
+					if (n != 25 || m != 26 || l != 27)
 					{
 						break;
 					}
