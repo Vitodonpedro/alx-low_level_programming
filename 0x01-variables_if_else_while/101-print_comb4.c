@@ -17,19 +17,20 @@ int main(void)
 			{
 				if (l > m && m > n)
 				{
-					putchar(n);
-					putchar(m);
-					putchar(l);
+					_putchar(n);
+					_putchar(m);
+					_putchar(l);
 					if (n != 25 || m != 26)
 					{
-						putchar(',');
-						putchar(' ');
+						_putchar(',');
+						_putchar(' ');
 					}
 				}
 			}
 		}
 	}
-	putchar('\n');
+	_putchar('\n');
+
 	return (0);
 }
 
