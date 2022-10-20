@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - print the last digit
- * @n: the number
+ * @n: the int to extract the last digit from
  * Return: value of the last digit
  */
 
@@ -13,6 +13,8 @@ int print_last_digit(int n)
 	if (n < 0)
 		n = -n;
 	x = n % 10;
+	if (x < 0)
+		a = -a;
 	_putchar(x + '0');
 	return (x);
 }
