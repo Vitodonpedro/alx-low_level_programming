@@ -9,7 +9,7 @@ int main(void)
 {
 	int n = 48;
 	int m, l;
-	int com = ,;
+	int com = ',';
 
 	while (n <= 57)
 	{
