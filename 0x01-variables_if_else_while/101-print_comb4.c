@@ -11,21 +11,21 @@ int main(void)
 	int m, l;
 	int com = 44;
 
-	while (n <= 58)
+	while (n <= 57)
 	{
 		m = n + 1;
-		while (m <= 58)
+		while (m <= 57)
 		{
 			l = m + 1;
-			while (l <= 58)
+			while (l <= 57)
 			{
 				putchar(n);
 				putchar(m);
 				putchar(l);
-				if (n == 55 || m == 56 || l == 57)
+				if (n != 55 || m != 56 || l != 57)
 				{
-					putchar(com);
-					putchar(32);
+					putchar(',');
+					putchar(' ');
 				}
 				l += 1;
 			}
