@@ -9,7 +9,7 @@ int main(void)
 {
 	int n = 48;
 	int m, l;
-	int com = 44;
+	int com = ,;
 
 	while (n <= 57)
 	{
@@ -24,7 +24,7 @@ int main(void)
 				putchar(l);
 				if (n != 55 || m != 56 || l != 57)
 				{
-					putchar(',');
+					putchar(com);
 					putchar(' ');
 				}
 				l += 1;
