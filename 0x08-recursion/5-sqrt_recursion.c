@@ -8,7 +8,7 @@
  * Return: value of root
  */
 
-int _sqrt_recursion(int i, int n)
+int _sqrt_recursion(int n)
 {
 	int i = 0;
 
