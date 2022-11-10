@@ -26,6 +26,6 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 	printf("error\n");
-	return (2);
+	return (1);
 }
 
