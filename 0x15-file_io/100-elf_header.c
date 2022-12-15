@@ -1,6 +1,6 @@
 /*
  * File: 100-elf_header.c
- * Auth: Brennan D Baraban
+ * Auth: Vito Don Pedr
  */
 
 #include <elf.h>
